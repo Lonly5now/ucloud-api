@@ -63,8 +63,8 @@ def format_response(response_content):
 测试begin
 '''
 api_params = {
-    'Action': 'DescribeUHostInstance',
-    'Region': 'cn-bj2',
-    'Zone': 'cn-bj2-04',
+    # 'Action': 'DescribeUHostInstance',
+    # 'Region': 'cn-bj2',
+    # 'Zone': 'cn-bj2-04',
 }
 print(get_ucloud_api_result(api_params))
