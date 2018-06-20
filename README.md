@@ -1,6 +1,6 @@
 # UCloud-API Script
 
-
+API Script based on python.
 
 ## API 请求结构
 
@@ -38,12 +38,12 @@ https://console.ucloud.cn/apikey
 
 ## ucloudapi_general.py
 
-#### 填写对应的公共参数
+- 填写对应的公共参数
 
 ![](http://p81vbqgtm.bkt.clouddn.com/18-6-20/62146115.jpg)
 
 
-#### 填写对应的API指令和指令参数
+- 填写对应的API指令和指令参数
 （其中必选参数需要全部填写完整）
 
 ![](http://p81vbqgtm.bkt.clouddn.com/18-6-20/94600411.jpg)
@@ -67,3 +67,7 @@ https://console.ucloud.cn/apikey
 ![](http://p81vbqgtm.bkt.clouddn.com/18-6-20/14218682.jpg)
 
 红框中为请求的得到的请求url，**Signature=xxx**为计算出的签名 
+
+## Author Information
+
+Author: Jusitn.Zhu ； Jason.Wu
