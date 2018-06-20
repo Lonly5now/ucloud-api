@@ -6,7 +6,7 @@
 
 
 Name | Description | Notes
--      | :- | :- 
+-| :- | :- 
 API调用地址 | 调用API的webservice入口 | http(s)://api.ucloud.cn
 公共参数    | 调用API时需要给出的公共参数 | 参见 [公共参数列表](https://docs.ucloud.cn/api/summary/public)
 API指令    | 即API指令名称，如 DescribeUhostInstance | 参见 [API指令列表](https://docs.ucloud.cn/api/index)
@@ -50,7 +50,7 @@ https://console.ucloud.cn/apikey
 
 #### Demo
 
-获取北京2D机房所有云主机的信息: [API](https://docs.ucloud.cn/api/uhost-api/describe_uhost_instance)
+获取北京2D机房所有云主机的信息[API](https://docs.ucloud.cn/api/uhost-api/describe_uhost_instance):
 
 ![](http://p81vbqgtm.bkt.clouddn.com/18-6-20/17904959.jpg)
 
