@@ -62,4 +62,7 @@ api_params = {
     # 'Region': 'cn-bj2',
     # 'Zone': 'cn-bj2-04',
 }
-print (get_ucloud_api_result(api_params))
+
+json_result = get_ucloud_api_result(api_params)
+
+print (json.dumps(json_result, indent=4))
