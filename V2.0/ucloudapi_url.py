@@ -30,7 +30,7 @@ def get_ucloud_api_result(params):
         params["ProjectId"] = ProjectId
     params["Signature"] = verfy_ac(params)
     
-    for key,value in params.items():
+    for key, value in params.items():
         str_url += key + '=' + value + '&'
    
     r = requests.post(url)
