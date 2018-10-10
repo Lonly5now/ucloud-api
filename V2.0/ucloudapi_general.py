@@ -7,8 +7,8 @@ import json
 import requests
 
 url = 'http://api.ucloud.cn'
-PublicKey = 'xGdqSTY2j6c5Ej1sD4N3EBetscZ7TVJUZwzQ8VqTPgitZpfV'
-PrivateKey = 'b162dd5887cec37a41f6b0856a5940c23f7d6b06'
+PublicKey = ''
+PrivateKey = ''
 ProjectId = ''
 
 '''Your API params'''
