@@ -1,4 +1,4 @@
-## V1.2 update
+## V2.0 update
 
 - 优化代码格式，代码整洁++，代码舒适++
 - ucloudapi_url.py增加一些内容提示
