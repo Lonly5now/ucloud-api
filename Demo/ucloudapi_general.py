@@ -6,23 +6,12 @@ import json
 
 import requests
 
-url = 'http://api.ucloud.cn'
-PublicKey = ''
-PrivateKey = ''
-ProjectId = ''
-
-'''Your API params'''
-
-api_params = {
-    'Action': 'DescribeUHostInstance',
-    'Region': 'cn-bj2',
-    'Zone': 'cn-bj2-04',
-}
+from config import *
 
 
-''' Get the result of API request '''
-
-def get_ucloud_api_result(params):
+def get_result(params):
+    """Get the result of API request
+    """
     global PublicKey, ProjectId, url
     params["PublicKey"] = PublicKey
     params["Signature"] = verfy_ac(params)
@@ -36,25 +25,25 @@ def get_ucloud_api_result(params):
     return response
 
 
-
-''' Signature Generation '''
-
 def verfy_ac(params):
+    """Signature Generation
+    """
     global PrivateKey
     params_data = ""
-    
+
     items = params.items()
     items = sorted(items)
 
     for key, value in items:
         params_data = params_data + str(key) + str(value)
-    
+
     params_data = params_data + PrivateKey
     sign = hashlib.sha1()
     sign.update(params_data.encode('utf8'))
     signature = sign.hexdigest()
-    
+
     return signature
 
 
-print(get_ucloud_api_result(api_params))
+if __name__ == '__main__':
+    print(get_result(api_params))
