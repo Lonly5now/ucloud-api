@@ -8,8 +8,6 @@ import requests
 from config import *
 
 
-
-
 def get_result(params):
     """Get the result of API request
     """

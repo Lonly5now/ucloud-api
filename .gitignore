@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.idea/*
+
+##ignore this file##
+/old/
+/Test/
+/Demo/config.py
+

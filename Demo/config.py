@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 url = 'http://api.ucloud.cn'
-PublicKey = 'D9LjVv4guq3mOIOpk4bUNhaRM3f90LmhK4VmTdzBlkvLcCjbOp0JHZ7nnbw='
-PrivateKey = 'bxLZMADTEp5491Me1C3MsptM5b0a0na+9vQ2Gf1Rk/ZWP9cHS5ASCnakC6tJW1gk'
+PublicKey = ''
+PrivateKey = ''
 ProjectId = ''
 
 
